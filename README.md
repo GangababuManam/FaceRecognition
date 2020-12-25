@@ -38,7 +38,9 @@ Attendance Management systems. etc.
 
 We have trained the system with some of my friends.We have used 3 photos per person with clean, clear, front facing faces would produce better results for identity estimates. 
 
-The Softmax classifier is also prefered over SVM,KNN classifier as they produce slightly better estimation. It also provides a confidence score per estimate which allows us to set a threshold to categorize known or new faces. The confidence score threshold we experimented that works best is 0.9.
+The Softmax classifier is also prefered over SVM,KNN classifier as it produce slightly better estimation. It also provides a confidence score per estimate which allows us to set a threshold to categorize known or new faces.To get more condfidence over unknown faces cosign similarity is used.
+The cosine similarity threshould was best is 0.4.I have used in testing is 0.5
+The confidence score threshold we experimented that works best is 0.9.
 
 Model was tested on both faces with glasses and without glasses and model worked in both cases perfectly. 
 
@@ -46,6 +48,7 @@ Model was tested on both faces with glasses and without glasses and model worked
 <br>Face Detection: [DLib](http://dlib.net/)
 <br>Face Alignment: https://github.com/jrosebr1/imutils/blob/master/imutils/face_utils/facealigner.py
 <br>Face Recognition Models: https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/
+<br>SoftMax and cosine similarity :https://github.com/deepinsight/insightface
 
 ## Installations
 To run the model, please install the required python packages using
