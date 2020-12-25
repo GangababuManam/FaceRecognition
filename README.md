@@ -2,7 +2,7 @@
 
 ## Table of Contents
 + [About](#about)
-+ [Applications]
++ [Applications](#Applications)
 + [Technical System Architecture](#technical-system-architecture)
 + [Results](#results)
 + [References](#references)
@@ -36,9 +36,11 @@ Attendance Management systems. etc.
 <img src="https://github.com/GangababuManam/FaceRecognition/blob/main/Test.jpg" width="300" height="300">
 
 
-We have trained the system with some of my friends, . From what we tested, used 3 photos per person with clean, clear, front facing faces would produce better results for identity estimates. 
+We have trained the system with some of my friends.We have used 3 photos per person with clean, clear, front facing faces would produce better results for identity estimates. 
 
 The Softmax classifier is also prefered over SVM,KNN classifier as they produce slightly better estimation. It also provides a confidence score per estimate which allows us to set a threshold to categorize known or new faces. The confidence score threshold we experimented that works best is 0.9.
+
+Model was tested on both faces with glasses and without glasses and model worked in both cases perfectly. 
 
 ## References
 <br>Face Detection: [DLib](http://dlib.net/)
