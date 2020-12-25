@@ -32,10 +32,8 @@ Attendance Management systems. etc.
 |**Language**| Python|Python|Python|Python|
 
 ## Results
-[Left] System detected new customer face at promotion booth and shows the estimated gender, age and emotion.
-<br>[Right] Video shows how a known customer is being identified and how his emotion is being tracked. 
 
-<img src="" width="300" height="300"><img src="" width="300">
+<img src="https://github.com/GangababuManam/FaceRecognition/blob/main/Test.jpg" width="300" height="300">
 
 
 We have trained the system with some of my friends, . From what we tested, used 3 photos per person with clean, clear, front facing faces would produce better results for identity estimates. 
