@@ -52,8 +52,3 @@ To run the model, please install the required python packages using
 ```
 pip install -r requirements.txt
 ```
-```
-
-
-**To train new faces for face identification:**<br>
-Import photos to `faces/name_of_person/001.jpg` and run the codes again.
