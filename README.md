@@ -16,12 +16,12 @@ Facial Recognition Technology has been around for decades. How ever in recent ye
 The facial recognition market is expected to rise by $12.92 billion in 2027. That’s because facial recognition has all kinds of commercial applications. It can be used for everything from surveillance to marketing.
 
 # Applications:
-Perform secure transactions with contactless transactions.
-Identify people in social media.
-Recognize thieves. 
-Help blind people for recognizing the people.
-Find Missing Persons. 
-Aid Forensic Investigations
+Perform secure transactions with contactless transactions.<br>
+Identify people in social media.<br>
+Recognize thieves. <br>
+Help blind people for recognizing the people.<br>
+Find Missing Persons. <br>
+Aid Forensic Investigations<br>
 Attendance Management systems. etc.
 
 ## Technical System Architecture
